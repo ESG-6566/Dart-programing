@@ -1,18 +1,15 @@
-reverse(List lst) {
-  var reversed_list = [];
-  for (var i = lst.length-1; i >= 0; i--) {
-    reversed_list.add(lst[i]);
+class Point {
+  int x = 0;
+  int y = 0;
+
+  Point(int x, int y) {
+    
+    this.x = x;
+    this.y = y;
   }
-  return (reversed_list);
 }
-
 void main() {
-  var theList = [24, 56, 84, 92];
-  print(reverse(theList));
+
+  var location = new Point(36,87);
+
 }
-
-
-// Windows run in shell example:
-
-// >dart "reverse_the_list.dart"
-// [92, 84, 56, 24]
