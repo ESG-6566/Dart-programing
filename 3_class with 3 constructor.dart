@@ -7,7 +7,7 @@ class vehicle{
     this.wheelsNumber = 4;
   }
 
-  vehicle.bice() {
+  vehicle.bice (){
     this.wheelsNumber = 2;
   }
 
@@ -18,4 +18,5 @@ class vehicle{
 
 void main() {
   var v = new vehicle.truck(8);
+  var v2 = new vehicle.bice();
 }
