@@ -1,4 +1,4 @@
-//a class with seter and geter example
+//a class with set and map
 
 class Vehicle {
   String? model;
