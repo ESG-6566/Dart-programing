@@ -22,7 +22,7 @@ class Vehicle {
 
 void main() {
 
-  Vehicle? car = new Vehicle();
+  Vehicle car = new Vehicle();
 
   Vehicle.allVehicles.add(car);
 }
