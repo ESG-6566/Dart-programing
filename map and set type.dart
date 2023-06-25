@@ -2,7 +2,7 @@
 
 class Vehicle {
   String? model;
-  String? Manufacturer;
+  String? manufacturer;
   String? color;
   double? maxSpeed;
   double? weight;
@@ -12,7 +12,7 @@ class Vehicle {
   Map<String, dynamic> get AllData {
     return {
       "model": model,
-      "Manufacturer": Manufacturer,
+      "Manufacturer": manufacturer,
       "color": color,
       "maxSpeed": maxSpeed,
       "weight": weight

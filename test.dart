@@ -1,7 +1,12 @@
-import '4_private static and normal method.dart';
+import 'dart:js_util';
+
+class test {
+  static var v;
+}
 
 void main() {
-  var O = new car();
-  //print(car.classDescription());
-  car.classDescription();
+  test t1 = new test();
+  test t2 = new test();
+  test.v = 464646;
+  print(test.v);
 }
